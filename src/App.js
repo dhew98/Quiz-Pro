@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Home from './components/Header/Home/Home';
-import Quizes from './components/Header/Quizes/Quizes';
-import Topic from './components/Header/Topic/Topic';
+import Home from './components/Home/Home';
+import Quizes from './components/Quizes/Quizes';
 import Main from './layout/Main';
+
+
 
 function App() {
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Quiz from '../Quiz/Quiz';
 
+
 const Quizes = () => {
     const data = useLoaderData();
     const quizes = data.data.questions;
@@ -11,9 +12,7 @@ const Quizes = () => {
             <div className="quiz-container">
                 {
                     quizes.map(quiz =>
-                        <Quiz key={quiz.id} quiz={quiz}>
-
-                        </Quiz>
+                        <Quiz key={quiz.id} quiz={quiz}></Quiz>
                     )
 
                 }

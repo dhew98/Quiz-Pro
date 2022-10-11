@@ -14,6 +14,7 @@ const Home = () => {
                 {
                     topics.map(topic => <Topic key={topic.id}
                         topic={topic}>
+
                     </Topic>)
                 }
             </div>
