@@ -1,0 +1,23 @@
+.topic {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.topic img {
+    height: 250px;
+    background-color: palegreen;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
