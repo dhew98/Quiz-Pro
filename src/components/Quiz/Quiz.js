@@ -8,7 +8,7 @@ const Quiz = ({ quiz }) => {
     return (
         <div className='card-container'>
             <ul className="list-group">
-                <li class="list-group-item list-group-item-info fs-4 fw-bold">{question}</li>
+                <li className="list-group-item active fs-5 fw-bold" aria-current="true">{question}</li>
                 <ul className="list-group">
 
                     {
