@@ -35,7 +35,7 @@ const Quiz = ({ quiz }) => {
                     }
                 </ul>
 
-                {answer && <li className="list-group-item list-group-item-warning text-danger fs-5 fw-bold " > Correct Answer : {answer} </li>}
+                {answer && <li className="list-group-item list-group-item-info fs-5 fw-bold " > Correct Answer : {answer} </li>}
 
             </ul>
         </div>

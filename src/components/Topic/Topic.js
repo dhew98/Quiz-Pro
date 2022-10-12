@@ -13,9 +13,10 @@ const Topic = ({ topic }) => {
             <div className='topic'>
                 <img src={logo} alt=""></img>
                 <div className='foot'>
-                    <h5>{name}</h5>
-                    <p className='btn btn-primary'> <Link to={`/quiz/${id}`}>Start Practise </Link></p>
+                    <p className='fw-bold fs-5'>{name}</p>
+                    <p>Total quiz : {total}</p>
                 </div>
+                <p className='btn btn-primary w-75 fs-5'> <Link to={`/quiz/${id}`}>Quiz Practise </Link></p>
 
 
 

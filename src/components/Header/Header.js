@@ -7,12 +7,13 @@ const Header = () => {
         <nav className='header'>
 
             <div>
-                <h1>Quiz test</h1>
+                <h1>Quiz Pro</h1>
             </div>
             <div className='links'>
                 <Link to='/'>Topics</Link>
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/blog'>Blog</Link>
+                <Link to="/FAQ">FAQ</Link>
             </div>
 
 

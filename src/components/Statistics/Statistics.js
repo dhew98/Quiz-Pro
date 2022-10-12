@@ -13,8 +13,8 @@ const Statistics = () => {
 
 
     return (
-        <div >
-            <h1>Chart</h1>
+        <div className='chart-container'>
+            <h3>Total Quizes per Topic</h3>
             <ResponsiveContainer width="50%" height={350} className='chart'>
                 <LineChart data={topics} >
                     <Line type="monotone" dataKey="total" stroke="#8884d8" />

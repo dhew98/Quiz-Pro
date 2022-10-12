@@ -17,7 +17,7 @@ const Quizes = () => {
 
             <div className="quiz-container ">
                 <div>
-                    <h1> Quiz of {name}</h1>
+                    <h1> Quiz of <span className='text-danger'>{name}</span></h1>
                     <h4>Total quiz : {total}</h4>
                 </div>
 
