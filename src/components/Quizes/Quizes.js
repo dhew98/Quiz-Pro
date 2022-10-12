@@ -1,6 +1,8 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Quiz from '../Quiz/Quiz';
+import './Quizes.css'
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const Quizes = () => {
@@ -9,7 +11,8 @@ const Quizes = () => {
     console.log(quizes)
     return (
         <div>
-            <div className="quiz-container">
+            <ToastContainer></ToastContainer>
+            <div className="quiz-container ">
                 {
                     quizes.map(quiz =>
                         <Quiz key={quiz.id} quiz={quiz}></Quiz>
