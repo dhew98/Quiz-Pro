@@ -10,16 +10,13 @@ const Topic = ({ topic }) => {
 
     return (
         <div>
-            <div className='topic'>
-                <img src={logo} alt=""></img>
-                <div className='foot'>
-                    <p className='fw-bold fs-5'>{name}</p>
-                    <p>Total quiz : {total}</p>
+            <div class="card m-5 topic">
+                <img src={logo} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">{name}</h5>
+                    <p class="card-text">Total quiz : {total}.</p>
+                    <p className='btn btn-primary w-75 fs-5'> <Link to={`/quiz/${id}`}>Quiz Practise </Link></p>
                 </div>
-                <p className='btn btn-primary w-75 fs-5'> <Link to={`/quiz/${id}`}>Quiz Practise </Link></p>
-
-
-
             </div>
         </div >
     );

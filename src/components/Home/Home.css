@@ -1,5 +1,27 @@
 .topics-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 50px;
+
+}
+
+
+
+.home-header img {
+
+
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.text-pro {
+    color: #6A5AE0;
+}
+
+.dev {
+    text-align: center;
+    margin-left: 100px;
 }

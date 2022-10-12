@@ -10,10 +10,10 @@ const Header = () => {
                 <h1>Quiz Pro</h1>
             </div>
             <div className='links'>
-                <Link to='/'>Topics</Link>
+                <Link to="/">Home</Link>
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/blog'>Blog</Link>
-                <Link to="/FAQ">FAQ</Link>
+
             </div>
 
 
