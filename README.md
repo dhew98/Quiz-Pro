@@ -2,7 +2,7 @@ Project Name: Quiz Pro
 
 Code Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-dhew98 
 
-Live Website Link: 
+Live Website Link: https://mellow-maamoul-f2394a.netlify.app/
 
 Project Work: 
 
